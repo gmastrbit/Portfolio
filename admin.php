@@ -180,12 +180,16 @@
 		include("connect.php");
 		$result = mysql_query("SELECT * FROM `mypage`",$db);
 		$comment = mysql_fetch_array($result);
+
+		$query = mysql_query("SELECT `text` FROM `pass`", $db);
+		$array = mysql_fetch_array($query);
+		$passw = $array[0]
 	?>
 	<div id="center-center">
 		<form method="post">
 			<input class="footer__input" type="password" placeholder="Введіть пароль" name="pass">
 			<br><br>
-			<input type="submit" name="upload" value="Перевірити" class="btn">
+			<input type="submit" name="check" value="Перевірити" class="btn">
 			<br>
 		</form>
 		<button value="Сховати" class="btn" id="hide" onclick='test();'> Сховати </button> 
@@ -197,11 +201,10 @@
 		</script>
 	</div>
 	<?php
-		if (isset($_REQUEST['upload'])) {
+		if (isset($_REQUEST['check'])) {
 		$password = $_POST['pass']; 
-		$result_set = $mysqli -> query("SELECT `text` FROM `pass`");
-		if ($password == $result_set){
-			echo "<script>alert('Пароль вірний.');</script> <h1> Feedback </h1>";
+		if ($password == $passw){
+			echo "<script>alert('Пароль вірний.'); </script> <h1> Feedback </h1>";
 			do{
 			if ($comment != ""){
 				echo  " 
@@ -219,7 +222,7 @@
 			}
 			} while ($comment = mysql_fetch_array($result));
 			echo "
-			<form action='#' method='post'>
+			<form method='post'>
 			<button class='btn' type='submit' name='del_ajax'>
 			Очистити AJAX
 			</button>
