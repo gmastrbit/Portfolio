@@ -199,7 +199,8 @@
 	<?php
 		if (isset($_REQUEST['upload'])) {
 		$password = $_POST['pass']; 
-		if ($password == 'VS79FhMAjlzR8e'){
+		$result_set = $mysqli -> query("SELECT `text` FROM `pass`");
+		if ($password == $result_set){
 			echo "<script>alert('Пароль вірний.');</script> <h1> Feedback </h1>";
 			do{
 			if ($comment != ""){
