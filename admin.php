@@ -183,7 +183,7 @@
 
 		$query = mysql_query("SELECT `text` FROM `pass`", $db);
 		$array = mysql_fetch_array($query);
-		$passw = $array[0]
+		$passw = $array[0];
 	?>
 	<div id="center-center">
 		<form method="post">
