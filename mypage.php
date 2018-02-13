@@ -1,12 +1,12 @@
-<!-- gmastrbit@gmail.com -->
 <?php include("mypage/connect.php"); /* ini_set('display_errors','Off'); */ ?>
+<!-- gmastrbit@gmail.com -->
 <html>
 	<head> 
 		<title> Моя сторінка </title>
 		<link rel="shortcut icon" href="mypage/img/ico.png" type="image/x-icon">
 		<style>
 			body{ font-family: pt_sans; overflow-x: hidden; }
-				.load-container {
+			.load-container {
 				background: linear-gradient(140deg, #9575cd, #7e57c2, #673ab7, #5e35b1, #512da8, #4527a0, #311b92);
 				background: #fff;
 				background-size: 1400% 1400%;

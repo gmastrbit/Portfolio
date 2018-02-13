@@ -12,14 +12,14 @@ if(empty($_POST['js'])){
 		$author = $author.$info;
 		$author = addslashes($author);
 		$author = htmlspecialchars($author);
-		$author = stripslashes($author);
-		$author = mysql_real_escape_string($author);
+		$author = stripslashes($author);	
+		$author = $mysqli -> real_escape_string($author);
 		$message = @iconv("UTF-8", "UTF-8", $_POST['message']);
 		$message = addslashes($message);
 		$message = htmlspecialchars($message);
 		$message = stripslashes($message);
-		$message = mysql_real_escape_string($message);
-		$result = mysql_query("INSERT INTO `mypage` (`author`, `message`) VALUES ('$author', '$message')");
+		$message = $mysqli -> real_escape_string($message);
+		$result = $mysqli -> query("INSERT INTO `mypage` (`author`, `message`) VALUES ('$author', '$message')");
 		if($result == true){
 			echo 0; 
 		}else{
@@ -34,14 +34,14 @@ if($_POST['js'] == 'no'){
 		$author = $_POST['author'];
 		$author = addslashes($author);
 		$author = htmlspecialchars($author);
-		$author = stripslashes($author);
-		$author = mysql_real_escape_string($author);
+		$author = stripslashes($author);		
+		$author = $mysqli -> real_escape_string($author);
 		$message = $_POST['message'];
 		$message = addslashes($message);
 		$message = htmlspecialchars($message);
 		$message = stripslashes($message);
-		$message = mysql_real_escape_string($message);
-		$result = mysql_query("INSERT INTO `mypage` (`author`, `message`) VALUES ('$author', '$message')");
+		$message = $mysqli -> real_escape_string($message);
+		$result = $mysqli -> query("INSERT INTO `mypage` (`author`, `message`) VALUES ('$author', '$message')");
 		if($result == true){
 			echo "Ваше повідомлення успішно відправлено.";
 		}else{

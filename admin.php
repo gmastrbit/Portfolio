@@ -178,11 +178,10 @@
 	<body>
 	<?php 
 		include("connect.php");
-		$result = mysql_query("SELECT * FROM `mypage`",$db);
-		$comment = mysql_fetch_array($result);
-
-		$query = mysql_query("SELECT `text` FROM `pass`", $db);
-		$array = mysql_fetch_array($query);
+		$result = $mysqli -> query("SELECT * FROM `mypage`");
+		$comment = mysqli_fetch_array($result);
+		$query = $mysqli -> query("SELECT `text` FROM `pass`", $db);
+		$array = mysqli_fetch_array($query);
 		$passw = $array[0];
 	?>
 	<div id="center-center">
@@ -220,7 +219,7 @@
 				<br>
 				";
 			}
-			} while ($comment = mysql_fetch_array($result));
+			} while ($comment = mysqli_fetch_array($result));
 			echo "
 			<form method='post'>
 			<button class='btn' type='submit' name='del_ajax'>
@@ -234,8 +233,6 @@
 			exit();
 		}
 		if (isset($_REQUEST['del_ajax'])) {
-			$mysqli = new mysqli("localhost", "hworknet_admin", "11223344", "hworknet_test");
-			$mysqli -> query("SET NAMES 'utf8'");
 			$mysqli -> query ("DELETE FROM `hworknet_test`.`mypage`");
 			$mysqli -> close();
 		}
