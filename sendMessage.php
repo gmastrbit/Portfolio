@@ -1,5 +1,6 @@
 <?php 
 include("connect.php");
+mail("gmastrbit@gmail.com", "Mypage", "New message.");
 header("Content-type: text/html; charset=utf-8");
 			$ip = $_SERVER['REMOTE_ADDR'];
 			$timezone1 = '-2';
