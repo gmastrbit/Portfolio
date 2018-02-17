@@ -1,6 +1,5 @@
 <?php 
 include("connect.php");
-mail("gmastrbit@gmail.com", "Mypage", "New message.");
 header("Content-type: text/html; charset=utf-8");
 			$ip = $_SERVER['REMOTE_ADDR'];
 			$timezone1 = '-2';
@@ -9,6 +8,7 @@ header("Content-type: text/html; charset=utf-8");
 			$info = ", $ip, $date, $time";
 if(empty($_POST['js'])){
 	if($_POST['message'] != '' && $_POST['author'] != ''){
+		mail("gmastrbit@gmail.com", "Mypage", "New message.");
 		$author = @iconv("UTF-8", "UTF-8", $_POST['author']);
 		$author = $author.$info;
 		$author = addslashes($author);
@@ -32,6 +32,7 @@ if(empty($_POST['js'])){
 }
 if($_POST['js'] == 'no'){
 	if($_POST['message'] != '' && $_POST['author'] != ''){
+		mail("gmastrbit@gmail.com", "Mypage", "New message.");
 		$author = $_POST['author'];
 		$author = addslashes($author);
 		$author = htmlspecialchars($author);
