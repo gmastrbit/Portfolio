@@ -212,7 +212,7 @@
 						</filter>
 					</defs>
 				</svg>
-				<button id="component-1" class="button button--1 wow fadeIn animated" onclick="window.open('http://hwork.net/tbec/', '_blank')">
+				<button id="component-1" class="button button--1 wow fadeIn animated" onclick="window.open('https://hwork.net/tbec/', '_blank')">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
 					<span class="button__container">
 						<span class="circle top-left"></span>
@@ -258,7 +258,7 @@
 						</filter>
 					</defs>
 				</svg>
-				<button id="component-2" class="button button--2 wow fadeIn animated" onclick="window.open('http://hwork.net/profile/', '_blank')">
+				<button id="component-2" class="button button--2 wow fadeIn animated" onclick="window.open('https://hwork.net/profile/', '_blank')">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
 					<span class="button__container2">
 						<span class="circle2 top-left2"></span>
@@ -304,7 +304,7 @@
 					</filter>
 					</defs>
 				</svg>
-				<button id="component-3" class="button button--3 wow fadeIn animated" onclick="window.open('http://hwork.net/ps/', '_blank')">
+				<button id="component-3" class="button button--3 wow fadeIn animated" onclick="window.open('https://hwork.net/ps/', '_blank')">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
 					<span class="button__container3">
 						<span class="circle3 top-left3"></span>
@@ -350,7 +350,7 @@
 						</filter>
 					</defs>
 				</svg>
-				<button id="component-4" class="button button--4 wow fadeIn animated" onclick="window.open('http://hwork.net/files/', '_blank')">
+				<button id="component-4" class="button button--4 wow fadeIn animated" onclick="window.open('https://hwork.net/files/', '_blank')">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
 					<span class="button__container4">
 						<span class="circle4 top-left4"></span>
@@ -396,7 +396,7 @@
 						</filter>
 					</defs>
 				</svg>
-				<button id="component-14" class="button button--14 wow fadeIn animated" onclick="window.open('http://hwork.net/mail/', '_blank')">
+				<button id="component-14" class="button button--14 wow fadeIn animated" onclick="window.open('https://hwork.net/mail/', '_blank')">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
 					<span class="button__container14">
 						<span class="circle14 top-left14"></span>
@@ -442,7 +442,7 @@
 						</filter>
 					</defs>
 				</svg>
-				<button id="component-5" class="button button--5 wow fadeIn animated" onclick="window.open('http://hwork.net/secta/', '_blank')">
+				<button id="component-5" class="button button--5 wow fadeIn animated" onclick="window.open('https://hwork.net/secta/', '_blank')">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
 					<span class="button__container5">
 						<span class="circle5 top-left5"></span>
@@ -580,7 +580,7 @@
 						</filter>
 					</defs>
 				</svg>
-				<button id="component-8" class="button button--8 wow fadeIn animated" onclick="window.open('http://hwork.net/only/', '_blank')">
+				<button id="component-8" class="button button--8 wow fadeIn animated" onclick="window.open('https://hwork.net/only/', '_blank')">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
 					<span class="button__container8">
 						<span class="circle8 top-left8"></span>
@@ -626,7 +626,7 @@
 						</filter>
 					</defs>
 				</svg>
-				<button id="component-9" class="button button--9 wow fadeIn animated" onclick="window.open('http://hwork.net/rainbow/', '_blank')">
+				<button id="component-9" class="button button--9 wow fadeIn animated" onclick="window.open('https://hwork.net/rainbow/', '_blank')">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
 					<span class="button__container9">
 						<span class="circle9 top-left9"></span>
@@ -879,79 +879,6 @@
 			</div>
 		</div>
 		<br><br><br><br><br>
-		<div class="separator wow fadeIn animated"></div>
-		<br><br><br><br><br>
-		<div class="newFooter">	
-			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-				<defs>
-					<filter id="filter-goo-11">
-						<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-						<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-						<feComposite in="SourceGraphic" in2="goo" />
-					</filter>
-				</defs>
-				</svg>
-				<button id="component-11" class="button button--11 wow fadeIn animated" onclick="window.open('http://hwork.net/mypage/additionally/contacts.php', '_blank')">
-					Контакти
-					<span class="button__container11">
-						<span class="circle11 top-left11"></span>
-						<span class="circle11 top-left11"></span>
-						<span class="circle11 top-left11"></span>
-						<span class="button__bg11"></span>
-						<span class="circle11 bottom-right11"></span>
-						<span class="circle11 bottom-right11"></span>
-						<span class="circle11 bottom-right11"></span>
-					</span>
-				</button>
-			</section>
-			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-12">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-12" class="button button--12 wow fadeIn animated" onclick="window.open('http://hwork.net/mypage/additionally/about.php', '_blank')">
-					Про мене
-					<span class="button__container12">
-						<span class="circle12 top-left12"></span>
-						<span class="circle12 top-left12"></span>
-						<span class="circle12 top-left12"></span>
-						<span class="button__bg12"></span>
-						<span class="circle12 bottom-right12"></span>
-						<span class="circle12 bottom-right12"></span>
-						<span class="circle12 bottom-right12"></span>
-					</span>
-				</button>
-			</section>
-			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-13">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-13" class="button button--13 wow fadeIn animated" onclick="window.open('http://hwork.net/mypage/additionally/skills.php', '_blank')">
-					Навики
-					<span class="button__container13">
-						<span class="circle13 top-left13"></span>
-						<span class="circle13 top-left13"></span>
-						<span class="circle13 top-left13"></span>
-						<span class="button__bg13"></span>
-						<span class="circle13 bottom-right13"></span>
-						<span class="circle13 bottom-right13"></span>
-						<span class="circle13 bottom-right13"></span>
-					</span>
-				</button>
-			</section>
-		</div>
 	</div>
 	<script>
 	$(window).load(function () {
