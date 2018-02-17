@@ -216,8 +216,8 @@ justify-content: center;
 width: 30px;
 }
 .project, .bmark1, .bmark2, .bmark3{
-	align-content: center;
-	align-items: center;
+align-content: center;
+align-items: center;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -433,7 +433,7 @@ visibility: hidden;
 width: 1px;
 height: 1px; 
 }
-.button--1, .button--1 .button__bg, .button--2, .button--2 .button__bg2, .button--3, .button--3 .button__bg3, .button--4, .button--4 .button__bg4, .button--5, .button--5 .button__bg5, .button--6, .button--6 .button__bg6, .button--7, .button--7 .button__bg7, .button--8, .button--8 .button__bg8, .button--9, .button--9 .button__bg9, .button--10, .button--10 .button__bg10, .button--11, .button--11 .button__bg11, .button--12, .button--12 .button__bg12, .button--13, .button--13 .button__bg13,.button--14, .button--14 .button__bg14 {
+.button--1, .button--1 .button__bg, .button--2, .button--2 .button__bg2, .button--3, .button--3 .button__bg3, .button--4, .button--4 .button__bg4, .button--5, .button--5 .button__bg5, .button--6, .button--6 .button__bg6, .button--7, .button--7 .button__bg7, .button--8, .button--8 .button__bg8, .button--9, .button--9 .button__bg9, .button--10, .button--10 .button__bg10{
 -webkit-font-smoothing: antialiased;
 background-color: #311B92;
 border: none;
@@ -448,29 +448,29 @@ padding: 20px 40px;
 text-transform: uppercase;
 transition: background-color 0.1s ease-out; 
 }
-.button--1:hover, .button--1 .button__bg:hover, .button--2:hover, .button--2 .button__bg2:hover, .button--3:hover, .button--3 .button__bg3:hover, .button--4:hover, .button--4 .button__bg4:hover, .button--5:hover, .button--5 .button__bg5:hover, .button--6:hover, .button--6 .button__bg6:hover, .button--7:hover, .button--7 .button__bg7:hover, .button--8:hover, .button--8 .button__bg8:hover, .button--9:hover, .button--9 .button__bg9:hover, .button--10:hover, .button--10 .button__bg10:hover .button--11:hover, .button--11 .button__bg11:hover, .button--12:hover, .button--12 .button__bg12:hover, .button--13:hover, .button--13 .button__bg13:hover,.button--14:hover, .button--14 .button__bg14:hover{
+.button--1:hover, .button--1 .button__bg:hover, .button--2:hover, .button--2 .button__bg2:hover, .button--3:hover, .button--3 .button__bg3:hover, .button--4:hover, .button--4 .button__bg4:hover, .button--5:hover, .button--5 .button__bg5:hover, .button--6:hover, .button--6 .button__bg6:hover, .button--7:hover, .button--7 .button__bg7:hover, .button--8:hover, .button--8 .button__bg8:hover, .button--9:hover, .button--9 .button__bg9:hover, .button--10:hover, .button--10 .button__bg10:hover {
 background-color: #311B92;
 color: #fff; 
 }
-.button--1:focus, .button--1 .button__bg:focus, .button--2:focus, .button--2 .button__bg2:focus, .button--3:focus, .button--3 .button__bg3:focus, .button--4:focus, .button--4 .button__bg4:focus, .button--5:focus, .button--5 .button__bg5:focus, .button--6:focus, .button--6 .button__bg6:focus, .button--7:focus, .button--7 .button__bg7:focus, .button--8:focus, .button--8 .button__bg8:focus, 	.button--9:focus, .button--9 .button__bg9:focus, .button--10:focus, .button--10 .button__bg10:focus, .button--11:focus, .button--11 .button__bg11:focus, .button--12:focus, .button--12 .button__bg12:focus, .button--13:focus, .button--13 .button__bg13:focus, .button--14:focus, .button--14 .button__bg14:focus{
+.button--1:focus, .button--1 .button__bg:focus, .button--2:focus, .button--2 .button__bg2:focus, .button--3:focus, .button--3 .button__bg3:focus, .button--4:focus, .button--4 .button__bg4:focus, .button--5:focus, .button--5 .button__bg5:focus, .button--6:focus, .button--6 .button__bg6:focus, .button--7:focus, .button--7 .button__bg7:focus, .button--8:focus, .button--8 .button__bg8:focus, 	.button--9:focus, .button--9 .button__bg9:focus, .button--10:focus, .button--10 .button__bg10:focus{
 outline: none;
 color: #fff; 
 }
-.button--1, .button--2, .button--3, .button--4, .button--5, .button--6, .button--7, .button--8, .button--9, .button--10, .button--11, .button--12, .button--13, .button--14{
+.button--1, .button--2, .button--3, .button--4, .button--5, .button--6, .button--7, .button--8, .button--9, .button--10{
 position: relative;
 background: none;
 z-index: 0; 
 }
-.button--1:hover, .button--2:hover, .button--3:hover, .button--4:hover, .button--5:hover, .button--6:hover, .button--7:hover, .button--8:hover, .button--9:hover, .button--10:hover, .button--11:hover, .button--12:hover, .button--13:hover, .button--14:hover{
+.button--1:hover, .button--2:hover, .button--3:hover, .button--4:hover, .button--5:hover, .button--6:hover, .button--7:hover, .button--8:hover, .button--9:hover, .button--10:hover{
 background: none; 
 }
-.button--1:hover .circle, .button--2:hover .circle2, .button--3:hover .circle3, .button--4:hover .circle4, .button--5:hover .circle5, .button--6:hover .circle6, .button--7:hover .circle7, .button--8:hover .circle8, 	.button--9:hover .circle9, .button--10:hover .circle10, .button--11:hover .circle11, .button--12:hover .circle12, .button--13:hover .circle13, .button--14:hover .circle14 {
+.button--1:hover .circle, .button--2:hover .circle2, .button--3:hover .circle3, .button--4:hover .circle4, .button--5:hover .circle5, .button--6:hover .circle6, .button--7:hover .circle7, .button--8:hover .circle8, 	.button--9:hover .circle9, .button--10:hover .circle10 {
 background: #311B92; 
 }
-.button--1:hover .button__bg, .button--2:hover .button__bg2, .button--3:hover .button__bg3, .button--4:hover .button__bg4, .button--5:hover .button__bg5, .button--6:hover .button__bg6, .button--7:hover .button__bg7, .button--8:hover .button__bg8, .button--9:hover .button__bg9, .button--10:hover .button__bg10,  .button--11:hover .button__bg11,  .button--12:hover .button__bg12,  .button--13:hover .button__bg13, .button--14:hover .button__bg14 {
+.button--1:hover .button__bg, .button--2:hover .button__bg2, .button--3:hover .button__bg3, .button--4:hover .button__bg4, .button--5:hover .button__bg5, .button--6:hover .button__bg6, .button--7:hover .button__bg7, .button--8:hover .button__bg8, .button--9:hover .button__bg9, .button--10:hover .button__bg10 {
 background: #311B92; 
 }
-.button--1 .button__container, .button--2 .button__container2, .button--3 .button__container3, .button--4 .button__container4, .button--5 .button__container5, .button--6 .button__container6, .button--7 .button__container7, .button--8 .button__container8, .button--9 .button__container9, .button--10 .button__container10, .button--11 .button__container11, .button--12 .button__container12, .button--13 .button__container13, .button--14 .button__container14{
+.button--1 .button__container, .button--2 .button__container2, .button--3 .button__container3, .button--4 .button__container4, .button--5 .button__container5, .button--6 .button__container6, .button--7 .button__container7, .button--8 .button__container8, .button--9 .button__container9, .button--10 .button__container10{
 position: absolute;
 display: block;
 width: 200%;
@@ -488,7 +488,7 @@ transform: translateZ(0);
 -moz-transition: all 0.1s ease-out;
 transition: all 0.1s ease-out; 
 }
-.button--1 .button__bg, .button--2 .button__bg2, .button--3 .button__bg3, .button--4 .button__bg4, .button--5 .button__bg5, .button--6 .button__bg6, .button--7 .button__bg7, .button--8 .button__bg8,	.button--9 .button__bg9, .button--10 .button__bg10, .button--11 .button__bg11, .button--12 .button__bg12, .button--13 .button__bg13,.button--14 .button__bg14 {
+.button--1 .button__bg, .button--2 .button__bg2, .button--3 .button__bg3, .button--4 .button__bg4, .button--5 .button__bg5, .button--6 .button__bg6, .button--7 .button__bg7, .button--8 .button__bg8,	.button--9 .button__bg9, .button--10 .button__bg10 {
 height: 25%;
 left: 25%;
 position: absolute;
@@ -500,18 +500,18 @@ width: 50%;
 -ms-transform: translateY(-50%);
 -o-transform: translateY(-50%);
 }
-.button--1 .circle, .button--2 .circle2, .button--3 .circle3, .button--4 .circle4, .button--5 .circle5, .button--6 .circle6, .button--7 .circle7, .button--8 .circle8, .button--9 .circle9, .button--10 .circle10, .button--11 .circle11, .button--12 .circle12, .button--13 .circle13,.button--14 .circle14{
+.button--1 .circle, .button--2 .circle2, .button--3 .circle3, .button--4 .circle4, .button--5 .circle5, .button--6 .circle6, .button--7 .circle7, .button--8 .circle8, .button--9 .circle9, .button--10 .circle10{
 position: absolute;
 width: 25px;
 height: 25px;
 border-radius: 15px;
 background: #311B92;
 }
-.button--1 .circle.top-left, .button--2 .circle2.top-left2, .button--3 .circle3.top-left3, .button--4 .circle4.top-left4, .button--5 .circle5.top-left5, .button--6 .circle6.top-left6, .button--7 .circle7.top-left7, .button--8 .circle8.top-left8, .button--9 .circle9.top-left9, .button--10 .circle10.top-left10, .button--11 .circle11.top-left11, .button--12 .circle12.top-left12, .button--13 .circle13.top-left13,.button--14 .circle14.top-left14{
+.button--1 .circle.top-left, .button--2 .circle2.top-left2, .button--3 .circle3.top-left3, .button--4 .circle4.top-left4, .button--5 .circle5.top-left5, .button--6 .circle6.top-left6, .button--7 .circle7.top-left7, .button--8 .circle8.top-left8, .button--9 .circle9.top-left9, .button--10 .circle10.top-left10{
 top: 40%;
 left: 27%; 
 }
-.button--1 .circle.bottom-right, .button--2 .circle2.bottom-right2, .button--3 .circle3.bottom-right3, .button--4 .circle4.bottom-right4, .button--5 .circle5.bottom-right5, .button--6 .circle6.bottom-right6, .button--7 .circle7.bottom-right7, .button--8 .circle8.bottom-right8, .button--9 .circle9.bottom-right9, .button--10 .circle10.bottom-right10, .button--11 .circle11.bottom-right11, .button--12 .circle12.bottom-right12, .button--13 .circle13.bottom-right13, .button--14 .circle14.bottom-right14 {
+.button--1 .circle.bottom-right, .button--2 .circle2.bottom-right2, .button--3 .circle3.bottom-right3, .button--4 .circle4.bottom-right4, .button--5 .circle5.bottom-right5, .button--6 .circle6.bottom-right6, .button--7 .circle7.bottom-right7, .button--8 .circle8.bottom-right8, .button--9 .circle9.bottom-right9, .button--10 .circle10.bottom-right10 {
 bottom: 40%;
 right: 27%; 
 }
