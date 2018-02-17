@@ -107,7 +107,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body id=" js-scrollspy">
+	<body id="js-scrollspy">
 	<div class="load-container load8 c-c">
 		<div class="cssload-container">
 		<div class="cssload-circle-1"> <div class="cssload-circle-2"> <div class="cssload-circle-3"> <div class="cssload-circle-4"> <div class="cssload-circle-5"> <div class="cssload-circle-6"> <div class="cssload-circle-7"> <div class="cssload-circle-8">
@@ -935,7 +935,7 @@
 			data: {"author": author, "message": message, },
 			cache: false,						
 			success: function(response){
-			var messageResp = new Array('Ваше повідомлення відправлене','Повідомленян не відправлене, помилка БД','Не можна відправляти пусті повідомлення');
+			var messageResp = new Array('Ваше повідомлення відправлене','Повідомленян не відправлене, помилка БД','Не можна відправляти порожні повідомлення');
 			var resultStat = messageResp[Number(response)];
 			if(response == 0){
 				$("#author").val("");
