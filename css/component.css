@@ -433,35 +433,35 @@ visibility: hidden;
 width: 1px;
 height: 1px; 
 }
-.button--1, .button--1 .button__bg, .button--2, .button--2 .button__bg2, .button--3, .button--3 .button__bg3, .button--4, .button--4 .button__bg4, .button--5, .button--5 .button__bg5, .button--6, .button--6 .button__bg6, .button--7, .button--7 .button__bg7, .button--8, .button--8 .button__bg8, .button--9, .button--9 .button__bg9, .button--10, .button--10 .button__bg10{
+.button--1, .button--1 .button__bg, .button--2, .button--2 .button__bg2, .button--3, .button--3 .button__bg3, .button--4, .button--4 .button__bg4, .button--5, .button--5 .button__bg5, .button--6, .button--6 .button__bg6, .button--7, .button--7 .button__bg7, .button--8, .button--8 .button__bg8, .button--9, .button--9 .button__bg9, .button--10, .button--10 .button__bg10 {
 -webkit-font-smoothing: antialiased;
 background-color: #311B92;
 border: none;
 border-radius: 500px;
+color: white;
 display: inline-block;
 font-family: pt_sans;
-text-decoration: none;
-user-select: none;
 outline: none;
-color: white;
 padding: 20px 40px;
+text-decoration: none;
 text-transform: uppercase;
 transition: background-color 0.1s ease-out; 
+user-select: none;
 }
 .button--1:hover, .button--1 .button__bg:hover, .button--2:hover, .button--2 .button__bg2:hover, .button--3:hover, .button--3 .button__bg3:hover, .button--4:hover, .button--4 .button__bg4:hover, .button--5:hover, .button--5 .button__bg5:hover, .button--6:hover, .button--6 .button__bg6:hover, .button--7:hover, .button--7 .button__bg7:hover, .button--8:hover, .button--8 .button__bg8:hover, .button--9:hover, .button--9 .button__bg9:hover, .button--10:hover, .button--10 .button__bg10:hover {
 background-color: #311B92;
 color: #fff; 
 }
-.button--1:focus, .button--1 .button__bg:focus, .button--2:focus, .button--2 .button__bg2:focus, .button--3:focus, .button--3 .button__bg3:focus, .button--4:focus, .button--4 .button__bg4:focus, .button--5:focus, .button--5 .button__bg5:focus, .button--6:focus, .button--6 .button__bg6:focus, .button--7:focus, .button--7 .button__bg7:focus, .button--8:focus, .button--8 .button__bg8:focus, 	.button--9:focus, .button--9 .button__bg9:focus, .button--10:focus, .button--10 .button__bg10:focus{
+.button--1:focus, .button--1 .button__bg:focus, .button--2:focus, .button--2 .button__bg2:focus, .button--3:focus, .button--3 .button__bg3:focus, .button--4:focus, .button--4 .button__bg4:focus, .button--5:focus, .button--5 .button__bg5:focus, .button--6:focus, .button--6 .button__bg6:focus, .button--7:focus, .button--7 .button__bg7:focus, .button--8:focus, .button--8 .button__bg8:focus, 	.button--9:focus, .button--9 .button__bg9:focus, .button--10:focus, .button--10 .button__bg10:focus {
 outline: none;
 color: #fff; 
 }
-.button--1, .button--2, .button--3, .button--4, .button--5, .button--6, .button--7, .button--8, .button--9, .button--10{
+.button--1, .button--2, .button--3, .button--4, .button--5, .button--6, .button--7, .button--8, .button--9, .button--10 {
 position: relative;
 background: none;
 z-index: 0; 
 }
-.button--1:hover, .button--2:hover, .button--3:hover, .button--4:hover, .button--5:hover, .button--6:hover, .button--7:hover, .button--8:hover, .button--9:hover, .button--10:hover{
+.button--1:hover, .button--2:hover, .button--3:hover, .button--4:hover, .button--5:hover, .button--6:hover, .button--7:hover, .button--8:hover, .button--9:hover, .button--10:hover {
 background: none; 
 }
 .button--1:hover .circle, .button--2:hover .circle2, .button--3:hover .circle3, .button--4:hover .circle4, .button--5:hover .circle5, .button--6:hover .circle6, .button--7:hover .circle7, .button--8:hover .circle8, 	.button--9:hover .circle9, .button--10:hover .circle10 {
@@ -470,7 +470,7 @@ background: #311B92;
 .button--1:hover .button__bg, .button--2:hover .button__bg2, .button--3:hover .button__bg3, .button--4:hover .button__bg4, .button--5:hover .button__bg5, .button--6:hover .button__bg6, .button--7:hover .button__bg7, .button--8:hover .button__bg8, .button--9:hover .button__bg9, .button--10:hover .button__bg10 {
 background: #311B92; 
 }
-.button--1 .button__container, .button--2 .button__container2, .button--3 .button__container3, .button--4 .button__container4, .button--5 .button__container5, .button--6 .button__container6, .button--7 .button__container7, .button--8 .button__container8, .button--9 .button__container9, .button--10 .button__container10{
+.button--1 .button__container, .button--2 .button__container2, .button--3 .button__container3, .button--4 .button__container4, .button--5 .button__container5, .button--6 .button__container6, .button--7 .button__container7, .button--8 .button__container8, .button--9 .button__container9, .button--10 .button__container10 {
 position: absolute;
 display: block;
 width: 200%;
@@ -500,14 +500,14 @@ width: 50%;
 -ms-transform: translateY(-50%);
 -o-transform: translateY(-50%);
 }
-.button--1 .circle, .button--2 .circle2, .button--3 .circle3, .button--4 .circle4, .button--5 .circle5, .button--6 .circle6, .button--7 .circle7, .button--8 .circle8, .button--9 .circle9, .button--10 .circle10{
+.button--1 .circle, .button--2 .circle2, .button--3 .circle3, .button--4 .circle4, .button--5 .circle5, .button--6 .circle6, .button--7 .circle7, .button--8 .circle8, .button--9 .circle9, .button--10 .circle10 {
 position: absolute;
 width: 25px;
 height: 25px;
 border-radius: 15px;
 background: #311B92;
 }
-.button--1 .circle.top-left, .button--2 .circle2.top-left2, .button--3 .circle3.top-left3, .button--4 .circle4.top-left4, .button--5 .circle5.top-left5, .button--6 .circle6.top-left6, .button--7 .circle7.top-left7, .button--8 .circle8.top-left8, .button--9 .circle9.top-left9, .button--10 .circle10.top-left10{
+.button--1 .circle.top-left, .button--2 .circle2.top-left2, .button--3 .circle3.top-left3, .button--4 .circle4.top-left4, .button--5 .circle5.top-left5, .button--6 .circle6.top-left6, .button--7 .circle7.top-left7, .button--8 .circle8.top-left8, .button--9 .circle9.top-left9, .button--10 .circle10.top-left10 {
 top: 40%;
 left: 27%; 
 }
@@ -721,7 +721,6 @@ margin-top: -100px;
 padding-left: 0;
 padding-right: 0;
 }
-#component-11, #component-12, #component-13{ margin: 2px; }
 .contacts-box{ margin-bottom: 80px; }
 .contacts-mob, .message-mob{ display: none; }
 .projects-mob{

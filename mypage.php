@@ -169,11 +169,11 @@
 					</div>
 				</div>
 			</div>
-			<a class="down wow fadeOutUp animated" data-wow-offset="500" href="#my-projects" id="ss2">
-				<div class="down-button wow pulse animated" data-wow-iteration="999999" data-wow-duration="2s">
-					<i class="fa fa-arrow-down" aria-hidden="true"></i>
-				</div>
-			</a>
+				<a class="down wow fadeOutUp animated" data-wow-offset="500" href="#my-projects" id="ss2">
+					<div class="down-button wow pulse animated" data-wow-iteration="999999" data-wow-duration="2s">
+						<i class="fa fa-arrow-down" aria-hidden="true"></i>
+					</div>
+				</a>
 			<span id="my-projects"> </span>
 		</div>
 		<div class="projects-mob"> </div>
@@ -371,52 +371,6 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_10/project_image_10.png" class="lazy project-img zoom">
-					<img src="mypage/img/project_10/project_image_10.png" class="lazy project-img-mobile">
-				</div>
-				<div class="project-info wow fadeIn animated">
-					<div class="project-header">
-						Надсилач повідомлень
-					</div>
-					<div class="project-text">
-						Тепер ви можете анонімно або відкрито надіслати будь-яке повідомлення на будь-яку email адресу.
-						<div class="ots"></div>
-						Надсилання повідомлень онлайн без реєстрації. 
-					</div>
-				</div>
-			</div>
-			<br><br><br>
-			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-14">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-14" class="button button--14 wow fadeIn animated" onclick="window.open('https://hwork.net/mail/', '_blank')">
-					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container14">
-						<span class="circle14 top-left14"></span>
-						<span class="circle14 top-left14"></span>
-						<span class="circle14 top-left14"></span>
-						<span class="button__bg14"></span>
-						<span class="circle14 bottom-right14"></span>
-						<span class="circle14 bottom-right14"></span>
-						<span class="circle14 bottom-right14"></span>
-					</span>
-				</button>
-			</section>
-			<br><br><br><br>
-			<div class="separator wow fadeIn animated"></div>
-			<br><br><br><br><br>
-			<div class="project">
-				<div class="project-image">
-					<div class="my_image_project">
-						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
-					</div>
 					<img src="mypage/img/pixel.png" data-original="mypage/img/project_5/project_image_5.png" class="lazy project-img zoom">
 					<img src="mypage/img/project_5/project_image_5.png" class="lazy project-img-mobile">
 				</div>
@@ -601,17 +555,17 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_9/project_image_9.png" class="lazy project-img zoom">
-					<img src="mypage/img/project_9/project_image_9.png" class="lazy project-img-mobile">
+					<img src="mypage/img/pixel.png" data-original="mypage/img/project_10/project_image_10.png" class="lazy project-img zoom">
+					<img src="mypage/img/project_10/project_image_10.png" class="lazy project-img-mobile">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">
-						Весела радуга
+						Надсилач повідомлень
 					</div>
 					<div class="project-text">
-						Знайшов гарну анімацію веселки і відео, яке підходить до неї.
+						Тепер ви можете анонімно або відкрито надіслати будь-яке повідомлення на будь-яку email адресу.
 						<div class="ots"></div>
-						Скомпонувавши чудові компоненти можна отримати шедевр. Автор анімації і відео не я.
+						Надсилання повідомлень онлайн без реєстрації. 
 					</div>
 				</div>
 			</div>
@@ -626,7 +580,7 @@
 						</filter>
 					</defs>
 				</svg>
-				<button id="component-9" class="button button--9 wow fadeIn animated" onclick="window.open('https://hwork.net/rainbow/', '_blank')">
+				<button id="component-9" class="button button--9 wow fadeIn animated" onclick="window.open('https://hwork.net/mail/', '_blank')">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
 					<span class="button__container9">
 						<span class="circle9 top-left9"></span>
