@@ -1,10 +1,11 @@
 <?php include("mypage/connect.php"); /* ini_set('display_errors','Off'); */ ?>
 <!-- gmastrbit@gmail.com -->
+<!DOCTYPE html>
 <html>
 	<head> 
 		<title> Моя сторінка </title>
 		<link rel="shortcut icon" href="mypage/img/ico.png" type="image/x-icon">
-		<style>
+		<style type="">
 			body{ font-family: pt_sans; overflow-x: hidden; }
 			.load-container {
 				background: linear-gradient(140deg, #9575cd, #7e57c2, #673ab7, #5e35b1, #512da8, #4527a0, #311b92);
@@ -106,6 +107,8 @@
 		</style>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="My personal page // gmastrbit">
+		<meta name="keywords" content="gmastrbit, Bogdan, Shcherbakov, Bogdan Shcherbakov">
 	</head>
 	<body id="js-scrollspy">
 	<div class="load-container load8 c-c">
@@ -157,7 +160,7 @@
 							<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 						</div>
 						<a href="https://www.instagram.com/p/BU6N6O5AAZV/?taken-by=gmastrbit" target="_blank"> 
-						<img class="lazy" src="mypage/img/pixel.png" data-original="mypage/img/image.jpg" width="250" height="250" alt="">
+						<img class="lazy" src="mypage/img/pixel.png" data-original="mypage/img/image.jpg" width="250" height="250" alt="I am">
 						</a>
 					</div>
 					<div class="mytext">
@@ -187,8 +190,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_1/project_image_1.png" class="lazy project-img zoom om">
-					<img src="mypage/img/project_1/project_image_1.png" class="lazy project-img-mobile">
+					<img src="mypage/img/pixel.png" data-original="mypage/img/project_1/project_image_1.png" class="lazy project-img zoom om" alt="TBEC">
+					<img src="mypage/img/project_1/project_image_1.png" class="lazy project-img-mobile"  alt="TBEC">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">
@@ -233,8 +236,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_2/project_image_2.png" class="lazy project-img zoom">
-					<img src="mypage/img/project_2/project_image_2.png" class="lazy project-img-mobile">
+					<img src="mypage/img/pixel.png" data-original="mypage/img/project_2/project_image_2.png" class="lazy project-img zoom"  alt="My profile">
+					<img src="mypage/img/project_2/project_image_2.png" class="lazy project-img-mobile"  alt="My profile">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">
@@ -279,8 +282,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_3/project_image_3.png" class="lazy project-img zoom">
-					<img src="mypage/img/project_3/project_image_3.png" class="lazy project-img-mobile">
+					<img src="mypage/img/pixel.png" data-original="mypage/img/project_3/project_image_3.png" class="lazy project-img zoom"  alt="PS-46">
+					<img src="mypage/img/project_3/project_image_3.png" class="lazy project-img-mobile"  alt="PS-46">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">
@@ -325,8 +328,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_4/project_image_4.png" class="lazy project-img zoom">
-					<img src="mypage/img/project_4/project_image_4.png" class="lazy project-img-mobile">
+					<img src="mypage/img/pixel.png" data-original="mypage/img/project_4/project_image_4.png" class="lazy project-img zoom"  alt="Fupl">
+					<img src="mypage/img/project_4/project_image_4.png" class="lazy project-img-mobile"  alt="Fupl">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">
@@ -371,8 +374,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_5/project_image_5.png" class="lazy project-img zoom">
-					<img src="mypage/img/project_5/project_image_5.png" class="lazy project-img-mobile">
+					<img src="mypage/img/pixel.png" data-original="mypage/img/project_5/project_image_5.png" class="lazy project-img zoom"  alt="Secta">
+					<img src="mypage/img/project_5/project_image_5.png" class="lazy project-img-mobile"  alt="Secta">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">
@@ -417,8 +420,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_6/project_image_6.png" class="lazy project-img zoom">
-					<img src="mypage/img/project_6/project_image_6.png" class="lazy project-img-mobile">
+					<img src="mypage/img/pixel.png" data-original="mypage/img/project_6/project_image_6.png" class="lazy project-img zoom"  alt="Kazka">
+					<img src="mypage/img/project_6/project_image_6.png" class="lazy project-img-mobile"  alt="Kazka">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">
@@ -463,8 +466,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_7/project_image_7.png" class="lazy project-img zoom">
-					<img src="mypage/img/project_7/project_image_7.png" class="lazy project-img-mobile">
+					<img src="mypage/img/pixel.png" data-original="mypage/img/project_7/project_image_7.png" class="lazy project-img zoom"  alt="Okta">
+					<img src="mypage/img/project_7/project_image_7.png" class="lazy project-img-mobile"  alt="Okta">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">
@@ -509,8 +512,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_8/project_image_8.png" class="lazy project-img zoom">
-					<img src="mypage/img/project_8/project_image_8.png" class="lazy project-img-mobile">
+					<img src="mypage/img/pixel.png" data-original="mypage/img/project_8/project_image_8.png" class="lazy project-img zoom"  alt="Welcome to the jungle">
+					<img src="mypage/img/project_8/project_image_8.png" class="lazy project-img-mobile"  alt="Welcome to the jungle">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">
@@ -555,8 +558,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_10/project_image_10.png" class="lazy project-img zoom">
-					<img src="mypage/img/project_10/project_image_10.png" class="lazy project-img-mobile">
+					<img src="mypage/img/pixel.png" data-original="mypage/img/project_10/project_image_10.png" class="lazy project-img zoom"  alt="Mailer">
+					<img src="mypage/img/project_10/project_image_10.png" class="lazy project-img-mobile"  alt="Mailer">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">
@@ -843,10 +846,10 @@
 	});
 	
 	$(document).ready(function() {
-		$("head").append("<link rel='stylesheet' href='mypage/css/animate.min.css'>");
-		$("head").append("<link rel='stylesheet' href='mypage/css/normalize.css'>");
-		$("head").append("<link rel='stylesheet' href='mypage/css/component.css'>");
-		$("head").append("<link rel='stylesheet' href='mypage/css/zoom.css'>");
+		$("head").append("<link rel='stylesheet' type='text/css' href='mypage/css/animate.min.css'>");
+		$("head").append("<link rel='stylesheet' type='text/css' href='mypage/css/normalize.css'>");
+		$("head").append("<link rel='stylesheet' type='text/css' href='mypage/css/component.css'>");
+		$("head").append("<link rel='stylesheet' type='text/css' href='mypage/css/zoom.css'>");
 	})
 	
 	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
@@ -869,12 +872,12 @@
 		});
 	});
 	</script>
-		<script src="mypage/js/zoomerang.js"></script>
-		<script src="mypage/js/TweenMax.min.js"></script>
-		<script src="mypage/js/main.js"></script>
-		<script src="mypage/js/classie.js"></script>
-		<script src="mypage/js/jquery.lazyload.min.js"></script>
-		<script src="mypage/js/wow.min.js"></script>
+		<script type="text/javascript" src="mypage/js/zoomerang.js"></script>
+		<script type="text/javascript" src="mypage/js/TweenMax.min.js"></script>
+		<script type="text/javascript" src="mypage/js/main.js"></script>
+		<script type="text/javascript" src="mypage/js/classie.js"></script>
+		<script type="text/javascript" src="mypage/js/jquery.lazyload.min.js"></script>
+		<script type="text/javascript" src="mypage/js/wow.min.js"></script>
 	<script>
 	document.getElementsByClassName('down')[0].onclick = function() {
 	document.getElementById('ss2').click(); }
