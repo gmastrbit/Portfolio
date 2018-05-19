@@ -1,11 +1,12 @@
 <?php include("mypage/connect.php"); /* ini_set('display_errors','Off'); */ ?>
 <!-- gmastrbit@gmail.com -->
 <!DOCTYPE html>
-<html>
+<html lang="uk">
 	<head> 
 		<title> Моя сторінка </title>
+		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="mypage/img/ico.png" type="image/x-icon">
-		<style type="">
+		<style>
 			body{ font-family: pt_sans; overflow-x: hidden; }
 			.load-container {
 				background: linear-gradient(140deg, #9575cd, #7e57c2, #673ab7, #5e35b1, #512da8, #4527a0, #311b92);
@@ -105,7 +106,6 @@
 				.only-mob{ display: block; }
 			}
 		</style>
-		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="My personal page // gmastrbit">
 		<meta name="keywords" content="gmastrbit, Bogdan, Shcherbakov, Bogdan Shcherbakov">
@@ -160,7 +160,8 @@
 							<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 						</div>
 						<a href="https://www.instagram.com/p/BU6N6O5AAZV/?taken-by=gmastrbit" target="_blank"> 
-						<img class="lazy" src="mypage/img/pixel.png" data-original="mypage/img/image.jpg" width="250" height="250" alt="I am">
+							<!-- <img class="lazy" src="mypage/img/pixel.png" data-original="mypage/img/image.jpg" width="250" height="250" alt="I am"> -->
+							<img src="mypage/img/image.jpg" width="250" height="250" alt="I am">
 						</a>
 					</div>
 					<div class="mytext">
@@ -172,11 +173,6 @@
 					</div>
 				</div>
 			</div>
-				<a class="down wow fadeOutUp animated" data-wow-offset="500" href="#my-projects" id="ss2">
-					<div class="down-button wow pulse animated" data-wow-iteration="999999" data-wow-duration="2s">
-						<i class="fa fa-arrow-down" aria-hidden="true"></i>
-					</div>
-				</a>
 			<span id="my-projects"> </span>
 		</div>
 		<div class="projects-mob"> </div>
@@ -844,14 +840,12 @@
 	$(window).scroll(function() { 
 		$('.header').toggleClass('header-shadow', $(this).scrollTop() > 10); 
 	});
-	
 	$(document).ready(function() {
 		$("head").append("<link rel='stylesheet' type='text/css' href='mypage/css/animate.min.css'>");
 		$("head").append("<link rel='stylesheet' type='text/css' href='mypage/css/normalize.css'>");
 		$("head").append("<link rel='stylesheet' type='text/css' href='mypage/css/component.css'>");
 		$("head").append("<link rel='stylesheet' type='text/css' href='mypage/css/zoom.css'>");
 	})
-	
 	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
 		e.preventDefault();
 		var target = this.hash,
@@ -872,16 +866,13 @@
 		});
 	});
 	</script>
-		<script type="text/javascript" src="mypage/js/zoomerang.js"></script>
-		<script type="text/javascript" src="mypage/js/TweenMax.min.js"></script>
-		<script type="text/javascript" src="mypage/js/main.js"></script>
-		<script type="text/javascript" src="mypage/js/classie.js"></script>
-		<script type="text/javascript" src="mypage/js/jquery.lazyload.min.js"></script>
-		<script type="text/javascript" src="mypage/js/wow.min.js"></script>
+		<script src="mypage/js/wow.min.js"></script>
+		<script src="mypage/js/zoomerang.js"></script>
+		<script src="mypage/js/TweenMax.min.js"></script>
+		<script src="mypage/js/main.js"></script>
+		<script src="mypage/js/classie.js"></script>
+		<script src="mypage/js/jquery.lazyload.min.js"></script>
 	<script>
-	document.getElementsByClassName('down')[0].onclick = function() {
-	document.getElementById('ss2').click(); }
-	
 	$(function() {
 		$("#send").click(function(){
 			var author = $("#author").val();
@@ -904,14 +895,12 @@
 			return false;
 		});
 	});
-	
 	$('.top').click(function(e){
 		e.preventDefault();
 		$('html, body').animate({
 			scrollTop: 0
 		});
 	});
-	
 	Array.prototype.forEach.call(document.querySelectorAll('p'), function (p, i) {
 		p.style.marginLeft = i * 6 + '%'
 	})
@@ -944,7 +933,7 @@
 		console.log(el)
 	}
 	</script>
-	<script type="text/javascript">
+	<script>
 	$("img.lazy").lazyload({effect: "fadeIn", threshold: -200 });
 	
 	(function() {
@@ -974,9 +963,7 @@
 			});
 		});
 	})(window);
-	
 	new WOW().init();
-	
 	var lastId,
 	topMenu = $("#top-menu"),
 	topMenuHeight = topMenu.outerHeight()+15,
