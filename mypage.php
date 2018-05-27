@@ -166,7 +166,7 @@
 					</div>
 					<div class="mytext">
 						Богдан Щербаков <br>
-						Мені 18 років <br>
+						Мені 19 років <br>
 						Захоплююсь дизайном <br>
 						Навики: html, css, php, js <br>
 						<div class="only-mob"><br><br></div>
