@@ -4,6 +4,14 @@
 <html lang="uk">
 	<head> 
 		<title> Моя сторінка </title>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120229196-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-120229196-2');
+		</script>
 		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="mypage/img/ico.png" type="image/x-icon">
 		<style>
