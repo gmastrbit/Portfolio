@@ -868,7 +868,7 @@
 	.config({
 		maxHeight: 400,
 		maxWidth: 900,
-		bgColor: '#D1C4E9',
+		bgColor: '#fff',
 		bgOpacity: .85,
 		onOpen: openCallback,
 		onClose: closeCallback,
