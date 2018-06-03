@@ -351,7 +351,7 @@ padding-right: 20px;
 padding-top: 30px;
 padding-left: 0;
 padding-right: 0;
-	width: 100%;
+width: 100%;
 }
 }
 @media screen and (max-width:1100px) {
@@ -387,6 +387,7 @@ width: 100%;
 .separator{ margin-left: 20px;  margin-right: 20px; }
 .project-img{ display: none; }
 .project-img-mobile{ display: flex; width: 100%; }
+.om, .my_image_project { display: none; visibility: hidden; }
 }
 @media screen and (max-width:55em) {
 .header {
@@ -721,6 +722,7 @@ margin-top: -15px;
 outline: none;
 height: 200px;
 min-width: 100%;
+font-family: pt_sans;
 }
 ::selection { background: #311B92;  color:#ffffff; }
 ::-moz-selection { background: #311B92;  color:#ffffff; }
@@ -797,10 +799,6 @@ img.zoom-img {
 }
 .zoom-overlay-open, .zoom-overlay-transitioning { cursor: default; }
 .zoom-overlay-transitioning .zoom-overlay {   opacity: 0; }
-@media screen and (max-width:1200px) {
-.om, .my_image_project { display: none; visibility: hidden; }
-}
-
 .animated {
   -webkit-animation-duration: 1s; animation-duration: 1s;  -webkit-animation-fill-mode: both; animation-fill-mode: both;
 }
@@ -859,3 +857,4 @@ img.zoom-img {
 .fadeIn {
   -webkit-animation-name: fadeIn; animation-name: fadeIn;
 }
+.myimage{ display: flex; justify-content: center; }

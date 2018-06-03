@@ -1,22 +1,14 @@
-/*
-* zoomerang.js - http://yyx990803.github.io/zoomerang/
-*/
 (function () {
-// webkit prefix helper
 var prefix = 'WebkitAppearance' in document.documentElement.style ? '-webkit-' : ''
-// regex
 var percentageRE = /^([\d\.]+)%$/
-// elements
 var overlay = document.createElement('div'),
 wrapper = document.createElement('div'),
 target,
 parent,
 placeholder
-// state
 var shown = false,
 lock  = false,
 originalStyles
-// options
 var options = {
 transitionDuration: '.4s',
 transitionTimingFunction: 'cubic-bezier(.4,0,0,1)',
@@ -29,7 +21,6 @@ onClose: null,
 onBeforeClose: null,
 onBeforeOpen: null
 }
-// compatibility stuff
 var trans = sniffTransition(),
 transitionProp = trans.transition,
 transformProp = trans.transform,
@@ -58,7 +49,6 @@ left: '50%',
 width: 0,
 height: 0
 })
-// helpers ----------------------------------------------------------------
 function setStyle (el, styles, remember) {
 checkTrans(styles)
 var s = el.style,
@@ -139,7 +129,6 @@ return ph
 }
 var api = {
 config: function (opts) {
-
 if (!opts) return options
 for (var key in opts) {
 options[key] = opts[key]
@@ -157,7 +146,6 @@ if (shown || lock) return
 target = typeof el === 'string'
 ? document.querySelector(el)
 : el
-// onBeforeOpen event
 if (options.onBeforeOpen) options.onBeforeOpen(target)
 shown = true
 lock = true
@@ -180,7 +168,6 @@ cursor: prefix + 'zoom-out',
 transform: 'translate(' + dx + 'px, ' + dy + 'px)',
 transition: ''
 }, true)
-// deal with % width and height
 var wPctMatch = target.style.width.match(percentageRE),
 hPctMatch = target.style.height.match(percentageRE)
 if (wPctMatch || hPctMatch) {
@@ -191,15 +178,12 @@ width: ~~(p.width / wPct) + 'px',
 height: ~~(p.height / hPct) + 'px'
 })
 }
-// insert overlay & placeholder
 parent.appendChild(overlay)
 parent.appendChild(wrapper)
 parent.insertBefore(placeholder, target)
 wrapper.appendChild(target)
 overlay.style.display = 'block'
-// force layout
 var force = target.offsetHeight
-// trigger transition
 overlay.style.opacity = options.bgOpacity
 setStyle(target, {
 transition:
@@ -219,7 +203,6 @@ return this
 close: function (cb) {
 if (!shown || lock) return
 lock = true
-// onBeforeClose event
 if (options.onBeforeClose) options.onBeforeClose(target)
 var p  = placeholder.getBoundingClientRect(),
 dx = p.left - (window.innerWidth - p.width) / 2,
@@ -271,7 +254,6 @@ return this
 }
 overlay.addEventListener('click', api.close)
 wrapper.addEventListener('click', api.close)
-// umd expose
 if (typeof exports == "object") {
 module.exports = api
 } else if (typeof define == "function" && define.amd) {

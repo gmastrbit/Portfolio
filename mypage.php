@@ -13,6 +13,7 @@
 		</script>
 		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="mypage/img/ico.png" type="image/x-icon">
+		<script src="mypage/js/zoomerang.js"></script>
 		<style>
 			body{ font-family: pt_sans; overflow-x: hidden; }
 			.load-container {			
@@ -122,7 +123,6 @@
 			<div class="logo">
 				<a href="mailto:gmastrbit@gmail.com" class="ico gradient1" data-gradient-css="linear-gradient(45deg, #9575cd, #7e57c2, #673ab7, #5e35b1, #512da8, #4527a0, #311b92)"> G </a> 
 			</div>
-			<script src="mypage/js/jquery.min.js"></script>
 			<div class="menu">
 				<nav class="menu menu--ferdinand">
 					<ul class="menu__list js-scrollspy-nav" id="top-menu">
@@ -146,7 +146,7 @@
 							<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 						</div>
 						<a href="https://www.instagram.com/p/BU6N6O5AAZV/?taken-by=gmastrbit" target="_blank"> 							
-							<img src="mypage/img/image.jpg" width="250" height="250" alt="I am">
+							<img src="mypage/img/image.png" width="250" height="250" alt="I am">
 						</a>
 					</div>
 					<div class="mytext">
@@ -166,8 +166,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_1/project_image_1.png" class="lazy project-img zoom om" alt="TBEC">
-					<img src="mypage/img/project_1/project_image_1.png" class="lazy project-img-mobile"  alt="TBEC">
+					<img src="mypage/img/project_1/project_image_1.png" class="project-img zoom" alt="TBEC">
+					<img src="mypage/img/project_1/project_image_1.png" class="project-img-mobile" alt="TBEC">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Презентація коледжу </div>
@@ -210,8 +210,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_2/project_image_2.png" class="lazy project-img zoom"  alt="My profile">
-					<img src="mypage/img/project_2/project_image_2.png" class="lazy project-img-mobile"  alt="My profile">
+					<img src="mypage/img/project_2/project_image_2.png" class="project-img zoom" alt="My profile">
+					<img src="mypage/img/project_2/project_image_2.png" class="project-img-mobile"  alt="My profile">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Мій профіль </div>
@@ -254,8 +254,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_3/project_image_3.png" class="lazy project-img zoom"  alt="PS-46">
-					<img src="mypage/img/project_3/project_image_3.png" class="lazy project-img-mobile"  alt="PS-46">
+					<img src="mypage/img/project_3/project_image_3.png" class="project-img zoom" alt="PS-46">
+					<img src="mypage/img/project_3/project_image_3.png" class="project-img-mobile"  alt="PS-46">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Сайт для студентів	</div>
@@ -298,8 +298,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_4/project_image_4.png" class="lazy project-img zoom"  alt="Fupl">
-					<img src="mypage/img/project_4/project_image_4.png" class="lazy project-img-mobile"  alt="Fupl">
+					<img src="mypage/img/project_4/project_image_4.png" class="project-img zoom" alt="Fupl">
+					<img src="mypage/img/project_4/project_image_4.png" class="project-img-mobile"  alt="Fupl">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Власний файлообмінник </div>
@@ -342,8 +342,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_5/project_image_5.png" class="lazy project-img zoom"  alt="Secta">
-					<img src="mypage/img/project_5/project_image_5.png" class="lazy project-img-mobile"  alt="Secta">
+					<img src="mypage/img/project_5/project_image_5.png" class="project-img zoom" alt="Secta">
+					<img src="mypage/img/project_5/project_image_5.png" class="project-img-mobile"  alt="Secta">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Соцмережа для об'єднання </div>
@@ -386,8 +386,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_6/project_image_6.png" class="lazy project-img zoom"  alt="Kazka">
-					<img src="mypage/img/project_6/project_image_6.png" class="lazy project-img-mobile"  alt="Kazka">
+					<img src="mypage/img/project_6/project_image_6.png" class="project-img zoom" alt="Kazka">
+					<img src="mypage/img/project_6/project_image_6.png" class="project-img-mobile"  alt="Kazka">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Сайт вихователя </div>
@@ -430,8 +430,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_7/project_image_7.png" class="lazy project-img zoom"  alt="Okta">
-					<img src="mypage/img/project_7/project_image_7.png" class="lazy project-img-mobile"  alt="Okta">
+					<img src="mypage/img/project_7/project_image_7.png" class="project-img zoom" alt="Okta">
+					<img src="mypage/img/project_7/project_image_7.png" class="project-img-mobile"  alt="Okta">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">Сторінка-лендінг </div>
@@ -474,8 +474,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_8/project_image_8.png" class="lazy project-img zoom"  alt="Welcome to the jungle">
-					<img src="mypage/img/project_8/project_image_8.png" class="lazy project-img-mobile"  alt="Welcome to the jungle">
+					<img src="mypage/img/project_8/project_image_8.png" class="project-img zoom" alt="Welcome to the jungle">
+					<img src="mypage/img/project_8/project_image_8.png" class="project-img-mobile"  alt="Welcome to the jungle">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Улюблений трек	</div>
@@ -518,8 +518,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_10/project_image_10.png" class="lazy project-img zoom"  alt="Mailer">
-					<img src="mypage/img/project_10/project_image_10.png" class="lazy project-img-mobile"  alt="Mailer">
+					<img src="mypage/img/project_10/project_image_10.png" class="project-img zoom" alt="Mailer">
+					<img src="mypage/img/project_10/project_image_10.png" class="project-img-mobile"  alt="Mailer">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Надсилач повідомлень </div>
@@ -754,7 +754,7 @@
 			<div class="feedback">
 				<form method="post" action="sendMessage.php"  class="feedbck">
 					<div class="row-feedback-1 wow fadeIn animated">
-						<input class="footer__input inp" placeholder="Введіть ім'я чи адресу пошти" name="author" id="author" type="text" required>
+						<input class="footer__input inp" placeholder="Введіть ім'я чи пошту" name="author" id="author" type="text" required>
 					</div>
 					<br><br>
 					<div class="row-feedback wow fadeIn animated">
@@ -796,6 +796,7 @@
 		</div>
 		<br><br><br><br><br>
 	</div>
+	<script src="mypage/js/jquery.min.js"></script>
 	<script>
 	$(window).load(function () {
 		$(".load-container").delay(100).fadeOut(750);
@@ -831,7 +832,6 @@
 		<script src="mypage/js/TweenMax.min.js"></script>
 		<script src="mypage/js/main.js"></script>
 		<script src="mypage/js/classie.js"></script>
-		<script src="mypage/js/jquery.lazyload.min.js"></script>
 	<script>
 	$(function() {
 		$("#send").click(function(){
@@ -843,7 +843,7 @@
 			data: {"author": author, "message": message, },
 			cache: false,						
 			success: function(response){
-			var messageResp = new Array('Ваше повідомлення відправлене','Повідомленян не відправлене, помилка БД','Не можна відправляти порожні повідомлення');
+			var messageResp = new Array('Ваше повідомлення відправлене','Повідомлення не відправлене, помилка БД','Не можна відправляти порожні повідомлення');
 			var resultStat = messageResp[Number(response)];
 			if(response == 0){
 				$("#author").val("");
@@ -894,8 +894,6 @@
 	}
 	</script>
 	<script>
-	$("img.lazy").lazyload({effect: "fadeIn", threshold: -200 });
-	
 	(function() {
 		[].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
 			var menuItems = menu.querySelectorAll('.menu__link'),
@@ -947,6 +945,8 @@
 			.end().filter("[href='#"+id+"']").parent().addClass("menu__item--current");
 		}                   
 	});
+	
+
 	</script>
 	</body>
 </html>
