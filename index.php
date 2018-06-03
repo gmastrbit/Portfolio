@@ -117,7 +117,7 @@
 	<div class="load-container load8 c-c">
 		<div class="cssload-container"> <div class="cssload-circle-1"> <div class="cssload-circle-2"> <div class="cssload-circle-3"> <div class="cssload-circle-4"> <div class="cssload-circle-5"> <div class="cssload-circle-6"> <div class="cssload-circle-7"> <div class="cssload-circle-8">	</div> </div> </div> </div> </div> </div> </div> </div> </div> 
 	</div>
-	<span id="my-head"> </span>
+	<span id="head"> </span>
 	<div class="all">
 		<div class="header">
 			<div class="logo">
@@ -137,10 +137,10 @@
 		    </div>
 				<nav class="menu menu--ferdinand menu__links">
 					<ul class="menu__list js-scrollspy-nav" id="top-menu">
-						<li class="menu__item menu__item--current menu__links-item">	<a href="#my-head" class="menu__link">Головне</a> </li>
-						<li class="menu__item menu__links-item"> <a href="#my-projects" id="ss2" class="menu__link">Проекти</a> </li>
-						<li class="menu__item menu__links-item"> <a href="#my-contacts" class="menu__link">Контакти</a> </li>
-						<li class="menu__item menu__links-item"> <a href="#my-message" class="menu__link">Напишіть мені</a> </li>
+						<li class="menu__links-item menu__item menu__item--current"> <a href="#head" class="menu__link">Головне</a> </li>
+						<li class="menu__links-item menu__item"> <a href="#projects" class="menu__link">Проекти</a> </li>
+						<li class="menu__links-item menu__item"> <a href="#contacts" class="menu__link">Контакти</a> </li>
+						<li class="menu__links-item menu__item"> <a href="#message" class="menu__link">Напишіть мені</a> </li>
 					</ul>
 				</nav>
 			</div>
@@ -166,7 +166,7 @@
 					</div>
 				</div>
 			</div>
-			<span id="my-projects"> </span>
+			<span id="projects"> </span>
 		</div>
 		<div class="projects-mob"> </div>
 		<div class="projects">
@@ -502,7 +502,7 @@
 				</div>
 			</div>
 			<br><br><br><br>
-			<span id="my-contacts"> </span>
+			<span id="contacts"> </span>
 			<div class="contacts-mob">
 				<br><br><br><br>
 			</div>
@@ -592,7 +592,7 @@
 			</div> 
 		</div>
 		<div class="mess">
-			<span id="my-message"> </span> 
+			<span id="message"> </span> 
 			<div class="message-mob">
 				<br><br><br><br>
 			</div>
@@ -632,12 +632,12 @@
 	$(window).load(function () {
 		$(".load-container").delay(100).fadeOut(750);
 	});
-	$(window).scroll(function() { 
-		$('.header').toggleClass('header-shadow', $(this).scrollTop() > 10); 
-	});
 	$(document).ready(function() {
 		$("head").append("<link rel='stylesheet' type='text/css' href='mypage/css/component.css'>");
 	})
+	$(window).scroll(function() { 
+		$('.header').toggleClass('header-shadow', $(this).scrollTop() > 10); 
+	});
 	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
 		e.preventDefault();
 		var target = this.hash,
@@ -658,9 +658,9 @@
 		});
 	});
 	</script>
-		<script async src="mypage/js/wow.min.js"></script>
-		<script async src="mypage/js/zoomerang.js"></script>
-		<script async src="mypage/js/classie.js"></script>
+		<script src="mypage/js/wow.min.js"></script>
+		<script src="mypage/js/zoomerang.js"></script>
+		<script src="mypage/js/classie.js"></script>
 	<script>
 	$(function() {
 		$("#send").click(function(){
@@ -732,7 +732,7 @@
 				if (classie.has(item, 'menu__item--current')) {
 					return false;
 				}
-				classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
+				classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');					
 				classie.add(item, 'menu__item--current');
 			};
 			[].slice.call(menuItems).forEach(function(el) {
@@ -774,13 +774,14 @@
 			.end().filter("[href='#"+id+"']").parent().addClass("menu__item--current");
 		}                   
 	});
-	(function($){
-	  $(function() {
-	    $('.menu__icon').on('click', function() {
-	      $(this).closest('.menu').toggleClass('menu_state_open');
-	    });
-	  });
-	})(jQuery);
+
+    $('.menu__icon').on('click', function() {
+		$(this).closest('.menu').toggleClass('menu_state_open');
+    });
+    
+    $('.menu__links-item').on('click', function() {
+		$(this).closest('.menu').removeClass('menu_state_open');
+    });
 	</script>
 	</body>
 </html>
