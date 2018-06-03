@@ -130,10 +130,7 @@
 			</div>
 
 			 <div class="menu__icon">
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
+				<span></span> <span></span> <span></span> <span></span>
 		    </div>
 				<nav class="menu menu--ferdinand menu__links">
 					<ul class="menu__list js-scrollspy-nav" id="top-menu">
@@ -209,9 +206,9 @@
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Мій профіль </div>
 					<div class="project-text">
-						Натхненний дизайном iOS, створив сторінку про себе та свої творіння часто використовуючи ефект розмиття для різних елементів.
+						Натхненний дизайном iOS, створив сторінку про себе та свої творіння, часто використовуючи ефект розмиття для різних елементів.
 						<div class="ots"></div>
-						Мої перші спроби зробити якісний сайт.
+						Мої перші спроби зробити цікавий сайт.
 					</div>
 				</div>
 			</div>
@@ -407,7 +404,7 @@
 		</div>
 		<div class="bookmarks">
 			<br><br><br><br>
-			<div class="hello wow fadeIn animated hamb4">	Концепція </div>
+			<div class="hello wow fadeIn animated hamb4"> Концепція </div>
 			<br><br><br><br><br><br><br>
 			<div class="bmark1">
 				<div class="bmark-image wow fadeIn animated zoom">
@@ -503,9 +500,7 @@
 			</div>
 			<br><br><br><br>
 			<span id="contacts"> </span>
-			<div class="contacts-mob">
-				<br><br><br><br>
-			</div>
+			<div class="contacts-mob"> <br><br><br><br>	</div>
 		</div>
 		<div class="contacts">
 			<div class="hello wow fadeIn animated hamb2">Контакти </div>
@@ -593,9 +588,7 @@
 		</div>
 		<div class="mess">
 			<span id="message"> </span> 
-			<div class="message-mob">
-				<br><br><br><br>
-			</div>
+			<div class="message-mob"> <br><br><br><br> </div>
 		</div>
 		<div class="write-me">
 			<div class="hello wow fadeIn animated hamb3">Напишіть мені</div>
@@ -774,11 +767,9 @@
 			.end().filter("[href='#"+id+"']").parent().addClass("menu__item--current");
 		}                   
 	});
-
     $('.menu__icon').on('click', function() {
 		$(this).closest('.menu').toggleClass('menu_state_open');
     });
-    
     $('.menu__links-item').on('click', function() {
 		$(this).closest('.menu').removeClass('menu_state_open');
     });
