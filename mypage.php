@@ -13,6 +13,7 @@
 		</script>
 		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="mypage/img/ico.png" type="image/x-icon">
+		<script src="mypage/js/zoomerang.js"></script>
 		<style>
 			body{ font-family: pt_sans; overflow-x: hidden; }
 			.load-container {			
@@ -122,14 +123,24 @@
 			<div class="logo">
 				<a href="mailto:gmastrbit@gmail.com" class="ico gradient1" data-gradient-css="linear-gradient(45deg, #9575cd, #7e57c2, #673ab7, #5e35b1, #512da8, #4527a0, #311b92)"> G </a> 
 			</div>
-			<script src="mypage/js/jquery.min.js"></script>
 			<div class="menu">
-				<nav class="menu menu--ferdinand">
+
+			<div class="logo-menu">
+				<a href="mailto:gmastrbit@gmail.com" class="ico gradient1" data-gradient-css="linear-gradient(45deg, #9575cd, #7e57c2, #673ab7, #5e35b1, #512da8, #4527a0, #311b92)"> G </a> 
+			</div>
+
+			 <div class="menu__icon">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+		    </div>
+				<nav class="menu menu--ferdinand menu__links">
 					<ul class="menu__list js-scrollspy-nav" id="top-menu">
-						<li class="menu__item menu__item--current">	<a href="#my-head" class="menu__link">Головне</a> </li>
-						<li class="menu__item"> <a href="#my-projects" id="ss2" class="menu__link">Проекти</a> </li>
-						<li class="menu__item"> <a href="#my-contacts" class="menu__link">Контакти</a> </li>
-						<li class="menu__item"> <a href="#my-message" class="menu__link">Напишіть мені</a> </li>
+						<li class="menu__item menu__item--current menu__links-item">	<a href="#my-head" class="menu__link">Головне</a> </li>
+						<li class="menu__item menu__links-item"> <a href="#my-projects" id="ss2" class="menu__link">Проекти</a> </li>
+						<li class="menu__item menu__links-item"> <a href="#my-contacts" class="menu__link">Контакти</a> </li>
+						<li class="menu__item menu__links-item"> <a href="#my-message" class="menu__link">Напишіть мені</a> </li>
 					</ul>
 				</nav>
 			</div>
@@ -146,7 +157,7 @@
 							<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 						</div>
 						<a href="https://www.instagram.com/p/BU6N6O5AAZV/?taken-by=gmastrbit" target="_blank"> 							
-							<img src="mypage/img/image.jpg" width="250" height="250" alt="I am">
+							<img src="mypage/img/image.png" width="250" height="250" alt="I am">
 						</a>
 					</div>
 					<div class="mytext">
@@ -159,15 +170,15 @@
 		</div>
 		<div class="projects-mob"> </div>
 		<div class="projects">
-			<div class="hello wow fadeIn animated"> Проекти	</div>
+			<div class="hello wow fadeIn animated hamb1">Проекти </div>
 			<br><br><br><br><br><br>
 			<div class="project">
 				<div class="project-image">
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_1/project_image_1.png" class="lazy project-img zoom om" alt="TBEC">
-					<img src="mypage/img/project_1/project_image_1.png" class="lazy project-img-mobile"  alt="TBEC">
+					<img src="mypage/img/project_1/project_image_1.png" class="project-img zoom" alt="TBEC">
+					<img src="mypage/img/project_1/project_image_1.png" class="project-img-mobile" alt="TBEC">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Презентація коледжу </div>
@@ -180,27 +191,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-1">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-1" class="button button--1 wow bounceInUp animated" onclick="window.open('https://hwork.net/tbec/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/tbec/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container">
-						<span class="circle top-left"></span>
-						<span class="circle top-left"></span>
-						<span class="circle top-left"></span>
-						<span class="button__bg"></span>
-						<span class="circle bottom-right"></span>
-						<span class="circle bottom-right"></span>
-						<span class="circle bottom-right"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -210,8 +203,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_2/project_image_2.png" class="lazy project-img zoom"  alt="My profile">
-					<img src="mypage/img/project_2/project_image_2.png" class="lazy project-img-mobile"  alt="My profile">
+					<img src="mypage/img/project_2/project_image_2.png" class="project-img zoom" alt="My profile">
+					<img src="mypage/img/project_2/project_image_2.png" class="project-img-mobile"  alt="My profile">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Мій профіль </div>
@@ -224,27 +217,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-2">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-2" class="button button--2 wow bounceInUp animated" onclick="window.open('https://hwork.net/profile/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/profile/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container2">
-						<span class="circle2 top-left2"></span>
-						<span class="circle2 top-left2"></span>
-						<span class="circle2 top-left2"></span>
-						<span class="button__bg2"></span>
-						<span class="circle2 bottom-right2"></span>
-						<span class="circle2 bottom-right2"></span>
-						<span class="circle2 bottom-right2"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -254,8 +229,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_3/project_image_3.png" class="lazy project-img zoom"  alt="PS-46">
-					<img src="mypage/img/project_3/project_image_3.png" class="lazy project-img-mobile"  alt="PS-46">
+					<img src="mypage/img/project_3/project_image_3.png" class="project-img zoom" alt="PS-46">
+					<img src="mypage/img/project_3/project_image_3.png" class="project-img-mobile"  alt="PS-46">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Сайт для студентів	</div>
@@ -268,27 +243,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-					<filter id="filter-goo-3">
-						<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-						<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-						<feComposite in="SourceGraphic" in2="goo" />
-					</filter>
-					</defs>
-				</svg>
-				<button id="component-3" class="button button--3 wow bounceInUp animated" onclick="window.open('https://hwork.net/ps/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/ps/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container3">
-						<span class="circle3 top-left3"></span>
-						<span class="circle3 top-left3"></span>
-						<span class="circle3 top-left3"></span>
-						<span class="button__bg3"></span>
-						<span class="circle3 bottom-right3"></span>
-						<span class="circle3 bottom-right3"></span>
-						<span class="circle3 bottom-right3"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -298,8 +255,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_4/project_image_4.png" class="lazy project-img zoom"  alt="Fupl">
-					<img src="mypage/img/project_4/project_image_4.png" class="lazy project-img-mobile"  alt="Fupl">
+					<img src="mypage/img/project_4/project_image_4.png" class="project-img zoom" alt="Fupl">
+					<img src="mypage/img/project_4/project_image_4.png" class="project-img-mobile"  alt="Fupl">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Власний файлообмінник </div>
@@ -312,27 +269,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-4">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-4" class="button button--4 wow bounceInUp animated" onclick="window.open('https://hwork.net/files/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/files/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container4">
-						<span class="circle4 top-left4"></span>
-						<span class="circle4 top-left4"></span>
-						<span class="circle4 top-left4"></span>
-						<span class="button__bg4"></span>
-						<span class="circle4 bottom-right4"></span>
-						<span class="circle4 bottom-right4"></span>
-						<span class="circle4 bottom-right4"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -342,8 +281,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_5/project_image_5.png" class="lazy project-img zoom"  alt="Secta">
-					<img src="mypage/img/project_5/project_image_5.png" class="lazy project-img-mobile"  alt="Secta">
+					<img src="mypage/img/project_5/project_image_5.png" class="project-img zoom" alt="Secta">
+					<img src="mypage/img/project_5/project_image_5.png" class="project-img-mobile"  alt="Secta">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Соцмережа для об'єднання </div>
@@ -356,27 +295,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-5">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-5" class="button button--5 wow bounceInUp animated" onclick="window.open('https://hwork.net/secta/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/secta/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container5">
-						<span class="circle5 top-left5"></span>
-						<span class="circle5 top-left5"></span>
-						<span class="circle5 top-left5"></span>
-						<span class="button__bg5"></span>
-						<span class="circle5 bottom-right5"></span>
-						<span class="circle5 bottom-right5"></span>
-						<span class="circle5 bottom-right5"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -386,8 +307,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_6/project_image_6.png" class="lazy project-img zoom"  alt="Kazka">
-					<img src="mypage/img/project_6/project_image_6.png" class="lazy project-img-mobile"  alt="Kazka">
+					<img src="mypage/img/project_6/project_image_6.png" class="project-img zoom" alt="Kazka">
+					<img src="mypage/img/project_6/project_image_6.png" class="project-img-mobile"  alt="Kazka">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Сайт вихователя </div>
@@ -400,27 +321,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-6">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-6" class="button button--6 wow bounceInUp animated" onclick="window.open('http://kazka8.esy.es/', '_blank')">
+				<a class="button wow bounceInUp animated" href="http://kazka8.esy.es/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container6">
-						<span class="circle6 top-left6"></span>
-						<span class="circle6 top-left6"></span>
-						<span class="circle6 top-left6"></span>
-						<span class="button__bg6"></span>
-						<span class="circle6 bottom-right6"></span>
-						<span class="circle6 bottom-right6"></span>
-						<span class="circle6 bottom-right6"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -430,8 +333,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_7/project_image_7.png" class="lazy project-img zoom"  alt="Okta">
-					<img src="mypage/img/project_7/project_image_7.png" class="lazy project-img-mobile"  alt="Okta">
+					<img src="mypage/img/project_7/project_image_7.png" class="project-img zoom" alt="Okta">
+					<img src="mypage/img/project_7/project_image_7.png" class="project-img-mobile"  alt="Okta">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header">Сторінка-лендінг </div>
@@ -444,27 +347,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-7">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-7" class="button button--7 wow bounceInUp animated" onclick="window.open('http://konstruktor-okta.esy.es/', '_blank')">
+				<a class="button wow bounceInUp animated" href="http://konstruktor-okta.esy.es/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container7">
-						<span class="circle7 top-left7"></span>
-						<span class="circle7 top-left7"></span>
-						<span class="circle7 top-left7"></span>
-						<span class="button__bg7"></span>
-						<span class="circle7 bottom-right7"></span>
-						<span class="circle7 bottom-right7"></span>
-						<span class="circle7 bottom-right7"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -474,8 +359,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_8/project_image_8.png" class="lazy project-img zoom"  alt="Welcome to the jungle">
-					<img src="mypage/img/project_8/project_image_8.png" class="lazy project-img-mobile"  alt="Welcome to the jungle">
+					<img src="mypage/img/project_8/project_image_8.png" class="project-img zoom" alt="Welcome to the jungle">
+					<img src="mypage/img/project_8/project_image_8.png" class="project-img-mobile"  alt="Welcome to the jungle">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Улюблений трек	</div>
@@ -488,27 +373,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-8">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-8" class="button button--8 wow bounceInUp animated" onclick="window.open('https://hwork.net/only/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/only/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container8">
-						<span class="circle8 top-left8"></span>
-						<span class="circle8 top-left8"></span>
-						<span class="circle8 top-left8"></span>
-						<span class="button__bg8"></span>
-						<span class="circle8 bottom-right8"></span>
-						<span class="circle8 bottom-right8"></span>
-						<span class="circle8 bottom-right8"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -518,8 +385,8 @@
 					<div class="my_image_project">
 						<i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
 					</div>
-					<img src="mypage/img/pixel.png" data-original="mypage/img/project_10/project_image_10.png" class="lazy project-img zoom"  alt="Mailer">
-					<img src="mypage/img/project_10/project_image_10.png" class="lazy project-img-mobile"  alt="Mailer">
+					<img src="mypage/img/project_10/project_image_10.png" class="project-img zoom" alt="Mailer">
+					<img src="mypage/img/project_10/project_image_10.png" class="project-img-mobile"  alt="Mailer">
 				</div>
 				<div class="project-info wow fadeIn animated">
 					<div class="project-header"> Надсилач повідомлень </div>
@@ -532,33 +399,15 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-9">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-9" class="button button--9 wow bounceInUp animated" onclick="window.open('https://hwork.net/mail/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/mail/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container9">
-						<span class="circle9 top-left9"></span>
-						<span class="circle9 top-left9"></span>
-						<span class="circle9 top-left9"></span>
-						<span class="button__bg9"></span>
-						<span class="circle9 bottom-right9"></span>
-						<span class="circle9 bottom-right9"></span>
-						<span class="circle9 bottom-right9"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br>
 		</div>
 		<div class="bookmarks">
 			<br><br><br><br>
-			<div class="hello wow fadeIn animated">	Концепція </div>
+			<div class="hello wow fadeIn animated hamb4">	Концепція </div>
 			<br><br><br><br><br><br><br>
 			<div class="bmark1">
 				<div class="bmark-image wow fadeIn animated zoom">
@@ -659,7 +508,7 @@
 			</div>
 		</div>
 		<div class="contacts">
-			<div class="hello wow fadeIn animated">	Контакти </div>
+			<div class="hello wow fadeIn animated hamb2">Контакти </div>
 			<br><br><br><br><br><br>
 			<div class="contacts-box">
 				<div class="dummy dummy-menu wow fadeIn animated">
@@ -749,12 +598,12 @@
 			</div>
 		</div>
 		<div class="write-me">
-			<div class="hello wow fadeIn animated">	Напишіть мені </div>
+			<div class="hello wow fadeIn animated hamb3">Напишіть мені</div>
 			<br><br><br><br>
 			<div class="feedback">
 				<form method="post" action="sendMessage.php"  class="feedbck">
 					<div class="row-feedback-1 wow fadeIn animated">
-						<input class="footer__input inp" placeholder="Введіть ім'я чи адресу пошти" name="author" id="author" type="text" required>
+						<input class="footer__input inp" placeholder="Введіть ім'я чи пошту" name="author" id="author" type="text" required>
 					</div>
 					<br><br>
 					<div class="row-feedback wow fadeIn animated">
@@ -764,26 +613,8 @@
 					<br><br>
 					<div class="row-feedback wow fadeIn animated">					
 						<section class="section">
-							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-								<defs>
-								<filter id="filter-goo-10">
-									<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-									<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-									<feComposite in="SourceGraphic" in2="goo" />
-								</filter>
-							</defs>
-							</svg>
-							<button id="send" class="button button--10 wow bounceInUp animated component-10" type="submit" name="button">
+							<button id="send" class="button wow bounceInUp animated component-10" type="submit" name="button">
 								Надіслати  <i class="fa fa-paper-plane" aria-hidden="true"></i>
-								<span class="button__container10">
-									<span class="circle10 top-left10"></span>
-									<span class="circle10 top-left10"></span>
-									<span class="circle10 top-left10"></span>
-									<span class="button__bg10"></span>
-									<span class="circle10 bottom-right10"></span>
-									<span class="circle10 bottom-right10"></span>
-									<span class="circle10 bottom-right10"></span>
-								</span>
 							</button>
 						</section>
 					</div>
@@ -796,6 +627,7 @@
 		</div>
 		<br><br><br><br><br>
 	</div>
+	<script src="mypage/js/jquery.min.js"></script>
 	<script>
 	$(window).load(function () {
 		$(".load-container").delay(100).fadeOut(750);
@@ -826,12 +658,9 @@
 		});
 	});
 	</script>
-		<script src="mypage/js/wow.min.js"></script>
-		<script src="mypage/js/zoomerang.js"></script>
-		<script src="mypage/js/TweenMax.min.js"></script>
-		<script src="mypage/js/main.js"></script>
-		<script src="mypage/js/classie.js"></script>
-		<script src="mypage/js/jquery.lazyload.min.js"></script>
+		<script async src="mypage/js/wow.min.js"></script>
+		<script async src="mypage/js/zoomerang.js"></script>
+		<script async src="mypage/js/classie.js"></script>
 	<script>
 	$(function() {
 		$("#send").click(function(){
@@ -843,7 +672,7 @@
 			data: {"author": author, "message": message, },
 			cache: false,						
 			success: function(response){
-			var messageResp = new Array('Ваше повідомлення відправлене','Повідомленян не відправлене, помилка БД','Не можна відправляти порожні повідомлення');
+			var messageResp = new Array('Ваше повідомлення відправлене','Повідомлення не відправлене, помилка БД','Не можна відправляти порожні повідомлення');
 			var resultStat = messageResp[Number(response)];
 			if(response == 0){
 				$("#author").val("");
@@ -894,8 +723,6 @@
 	}
 	</script>
 	<script>
-	$("img.lazy").lazyload({effect: "fadeIn", threshold: -200 });
-	
 	(function() {
 		[].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
 			var menuItems = menu.querySelectorAll('.menu__link'),
@@ -947,6 +774,13 @@
 			.end().filter("[href='#"+id+"']").parent().addClass("menu__item--current");
 		}                   
 	});
+	(function($){
+	  $(function() {
+	    $('.menu__icon').on('click', function() {
+	      $(this).closest('.menu').toggleClass('menu_state_open');
+	    });
+	  });
+	})(jQuery);
 	</script>
 	</body>
 </html>
