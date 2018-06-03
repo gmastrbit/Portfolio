@@ -124,12 +124,23 @@
 				<a href="mailto:gmastrbit@gmail.com" class="ico gradient1" data-gradient-css="linear-gradient(45deg, #9575cd, #7e57c2, #673ab7, #5e35b1, #512da8, #4527a0, #311b92)"> G </a> 
 			</div>
 			<div class="menu">
-				<nav class="menu menu--ferdinand">
+
+			<div class="logo-menu">
+				<a href="mailto:gmastrbit@gmail.com" class="ico gradient1" data-gradient-css="linear-gradient(45deg, #9575cd, #7e57c2, #673ab7, #5e35b1, #512da8, #4527a0, #311b92)"> G </a> 
+			</div>
+
+			 <div class="menu__icon">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+		    </div>
+				<nav class="menu menu--ferdinand menu__links">
 					<ul class="menu__list js-scrollspy-nav" id="top-menu">
-						<li class="menu__item menu__item--current">	<a href="#my-head" class="menu__link">Головне</a> </li>
-						<li class="menu__item"> <a href="#my-projects" id="ss2" class="menu__link">Проекти</a> </li>
-						<li class="menu__item"> <a href="#my-contacts" class="menu__link">Контакти</a> </li>
-						<li class="menu__item"> <a href="#my-message" class="menu__link">Напишіть мені</a> </li>
+						<li class="menu__item menu__item--current menu__links-item">	<a href="#my-head" class="menu__link">Головне</a> </li>
+						<li class="menu__item menu__links-item"> <a href="#my-projects" id="ss2" class="menu__link">Проекти</a> </li>
+						<li class="menu__item menu__links-item"> <a href="#my-contacts" class="menu__link">Контакти</a> </li>
+						<li class="menu__item menu__links-item"> <a href="#my-message" class="menu__link">Напишіть мені</a> </li>
 					</ul>
 				</nav>
 			</div>
@@ -159,7 +170,7 @@
 		</div>
 		<div class="projects-mob"> </div>
 		<div class="projects">
-			<div class="hello wow fadeIn animated"> Проекти	</div>
+			<div class="hello wow fadeIn animated hamb1">Проекти </div>
 			<br><br><br><br><br><br>
 			<div class="project">
 				<div class="project-image">
@@ -396,7 +407,7 @@
 		</div>
 		<div class="bookmarks">
 			<br><br><br><br>
-			<div class="hello wow fadeIn animated">	Концепція </div>
+			<div class="hello wow fadeIn animated hamb4">	Концепція </div>
 			<br><br><br><br><br><br><br>
 			<div class="bmark1">
 				<div class="bmark-image wow fadeIn animated zoom">
@@ -497,7 +508,7 @@
 			</div>
 		</div>
 		<div class="contacts">
-			<div class="hello wow fadeIn animated">	Контакти </div>
+			<div class="hello wow fadeIn animated hamb2">Контакти </div>
 			<br><br><br><br><br><br>
 			<div class="contacts-box">
 				<div class="dummy dummy-menu wow fadeIn animated">
@@ -587,7 +598,7 @@
 			</div>
 		</div>
 		<div class="write-me">
-			<div class="hello wow fadeIn animated">	Напишіть мені </div>
+			<div class="hello wow fadeIn animated hamb3">Напишіть мені</div>
 			<br><br><br><br>
 			<div class="feedback">
 				<form method="post" action="sendMessage.php"  class="feedbck">
@@ -763,6 +774,13 @@
 			.end().filter("[href='#"+id+"']").parent().addClass("menu__item--current");
 		}                   
 	});
+	(function($){
+	  $(function() {
+	    $('.menu__icon').on('click', function() {
+	      $(this).closest('.menu').toggleClass('menu_state_open');
+	    });
+	  });
+	})(jQuery);
 	</script>
 	</body>
 </html>
