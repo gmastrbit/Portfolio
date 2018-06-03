@@ -658,9 +658,9 @@
 		});
 	});
 	</script>
-		<script src="mypage/js/wow.min.js"></script>
-		<script src="mypage/js/zoomerang.js"></script>
-		<script src="mypage/js/classie.js"></script>
+		<script async src="mypage/js/wow.min.js"></script>
+		<script async src="mypage/js/zoomerang.js"></script>
+		<script async src="mypage/js/classie.js"></script>
 	<script>
 	$(function() {
 		$("#send").click(function(){
