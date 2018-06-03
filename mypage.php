@@ -180,27 +180,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-1">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-1" class="button button--1 wow bounceInUp animated" onclick="window.open('https://hwork.net/tbec/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/tbec/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container">
-						<span class="circle top-left"></span>
-						<span class="circle top-left"></span>
-						<span class="circle top-left"></span>
-						<span class="button__bg"></span>
-						<span class="circle bottom-right"></span>
-						<span class="circle bottom-right"></span>
-						<span class="circle bottom-right"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -224,27 +206,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-2">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-2" class="button button--2 wow bounceInUp animated" onclick="window.open('https://hwork.net/profile/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/profile/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container2">
-						<span class="circle2 top-left2"></span>
-						<span class="circle2 top-left2"></span>
-						<span class="circle2 top-left2"></span>
-						<span class="button__bg2"></span>
-						<span class="circle2 bottom-right2"></span>
-						<span class="circle2 bottom-right2"></span>
-						<span class="circle2 bottom-right2"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -268,27 +232,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-					<filter id="filter-goo-3">
-						<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-						<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-						<feComposite in="SourceGraphic" in2="goo" />
-					</filter>
-					</defs>
-				</svg>
-				<button id="component-3" class="button button--3 wow bounceInUp animated" onclick="window.open('https://hwork.net/ps/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/ps/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container3">
-						<span class="circle3 top-left3"></span>
-						<span class="circle3 top-left3"></span>
-						<span class="circle3 top-left3"></span>
-						<span class="button__bg3"></span>
-						<span class="circle3 bottom-right3"></span>
-						<span class="circle3 bottom-right3"></span>
-						<span class="circle3 bottom-right3"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -312,27 +258,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-4">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-4" class="button button--4 wow bounceInUp animated" onclick="window.open('https://hwork.net/files/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/files/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container4">
-						<span class="circle4 top-left4"></span>
-						<span class="circle4 top-left4"></span>
-						<span class="circle4 top-left4"></span>
-						<span class="button__bg4"></span>
-						<span class="circle4 bottom-right4"></span>
-						<span class="circle4 bottom-right4"></span>
-						<span class="circle4 bottom-right4"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -356,27 +284,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-5">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-5" class="button button--5 wow bounceInUp animated" onclick="window.open('https://hwork.net/secta/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/secta/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container5">
-						<span class="circle5 top-left5"></span>
-						<span class="circle5 top-left5"></span>
-						<span class="circle5 top-left5"></span>
-						<span class="button__bg5"></span>
-						<span class="circle5 bottom-right5"></span>
-						<span class="circle5 bottom-right5"></span>
-						<span class="circle5 bottom-right5"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -400,27 +310,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-6">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-6" class="button button--6 wow bounceInUp animated" onclick="window.open('http://kazka8.esy.es/', '_blank')">
+				<a class="button wow bounceInUp animated" href="http://kazka8.esy.es/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container6">
-						<span class="circle6 top-left6"></span>
-						<span class="circle6 top-left6"></span>
-						<span class="circle6 top-left6"></span>
-						<span class="button__bg6"></span>
-						<span class="circle6 bottom-right6"></span>
-						<span class="circle6 bottom-right6"></span>
-						<span class="circle6 bottom-right6"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -444,27 +336,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-7">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-7" class="button button--7 wow bounceInUp animated" onclick="window.open('http://konstruktor-okta.esy.es/', '_blank')">
+				<a class="button wow bounceInUp animated" href="http://konstruktor-okta.esy.es/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container7">
-						<span class="circle7 top-left7"></span>
-						<span class="circle7 top-left7"></span>
-						<span class="circle7 top-left7"></span>
-						<span class="button__bg7"></span>
-						<span class="circle7 bottom-right7"></span>
-						<span class="circle7 bottom-right7"></span>
-						<span class="circle7 bottom-right7"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -488,27 +362,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-8">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-8" class="button button--8 wow bounceInUp animated" onclick="window.open('https://hwork.net/only/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/only/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container8">
-						<span class="circle8 top-left8"></span>
-						<span class="circle8 top-left8"></span>
-						<span class="circle8 top-left8"></span>
-						<span class="button__bg8"></span>
-						<span class="circle8 bottom-right8"></span>
-						<span class="circle8 bottom-right8"></span>
-						<span class="circle8 bottom-right8"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br><br>
 			<div class="separator wow fadeIn animated"></div>
@@ -532,27 +388,9 @@
 			</div>
 			<br><br><br>
 			<section class="section">
-				<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-					<defs>
-						<filter id="filter-goo-9">
-							<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-							<feComposite in="SourceGraphic" in2="goo" />
-						</filter>
-					</defs>
-				</svg>
-				<button id="component-9" class="button button--9 wow bounceInUp animated" onclick="window.open('https://hwork.net/mail/', '_blank')">
+				<a class="button wow bounceInUp animated" href="https://hwork.net/mail/" target="_blank">
 					Перейти <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					<span class="button__container9">
-						<span class="circle9 top-left9"></span>
-						<span class="circle9 top-left9"></span>
-						<span class="circle9 top-left9"></span>
-						<span class="button__bg9"></span>
-						<span class="circle9 bottom-right9"></span>
-						<span class="circle9 bottom-right9"></span>
-						<span class="circle9 bottom-right9"></span>
-					</span>
-				</button>
+				</a>
 			</section>
 			<br><br><br>
 		</div>
@@ -764,26 +602,8 @@
 					<br><br>
 					<div class="row-feedback wow fadeIn animated">					
 						<section class="section">
-							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
-								<defs>
-								<filter id="filter-goo-10">
-									<feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
-									<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-									<feComposite in="SourceGraphic" in2="goo" />
-								</filter>
-							</defs>
-							</svg>
-							<button id="send" class="button button--10 wow bounceInUp animated component-10" type="submit" name="button">
+							<button id="send" class="button wow bounceInUp animated component-10" type="submit" name="button">
 								Надіслати  <i class="fa fa-paper-plane" aria-hidden="true"></i>
-								<span class="button__container10">
-									<span class="circle10 top-left10"></span>
-									<span class="circle10 top-left10"></span>
-									<span class="circle10 top-left10"></span>
-									<span class="button__bg10"></span>
-									<span class="circle10 bottom-right10"></span>
-									<span class="circle10 bottom-right10"></span>
-									<span class="circle10 bottom-right10"></span>
-								</span>
 							</button>
 						</section>
 					</div>
@@ -829,8 +649,6 @@
 	</script>
 		<script src="mypage/js/wow.min.js"></script>
 		<script src="mypage/js/zoomerang.js"></script>
-		<script src="mypage/js/TweenMax.min.js"></script>
-		<script src="mypage/js/main.js"></script>
 		<script src="mypage/js/classie.js"></script>
 	<script>
 	$(function() {
@@ -945,8 +763,6 @@
 			.end().filter("[href='#"+id+"']").parent().addClass("menu__item--current");
 		}                   
 	});
-	
-
 	</script>
 	</body>
 </html>
