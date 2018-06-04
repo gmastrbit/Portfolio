@@ -13,7 +13,6 @@
 		</script>
 		<meta charset="UTF-8">
 		<link rel="shortcut icon" href="mypage/img/ico.png" type="image/x-icon">
-		<script src="mypage/js/zoomerang.js"></script>
 		<style>
 			body{ font-family: pt_sans; overflow-x: hidden; }
 			.load-container {			
@@ -111,7 +110,7 @@
 		</style>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="My personal page // gmastrbit">
-		<meta name="keywords" content="gmastrbit, Bogdan, Shcherbakov, Bogdan Shcherbakov">
+		<meta name="keywords" content="gmastrbit, Bogdan, Shcherbakov, Bogdan Shcherbakov, Богдан Щербаков, Щербаков, Богдан">
 	</head>
 	<body id="js-scrollspy">
 	<div class="load-container load8 c-c">
@@ -122,22 +121,18 @@
 		<div class="header">
 			<div class="logo">
 				<a href="mailto:gmastrbit@gmail.com" class="ico gradient1" data-gradient-css="linear-gradient(45deg, #9575cd, #7e57c2, #673ab7, #5e35b1, #512da8, #4527a0, #311b92)"> G </a> 
-			</div>
+			</div>			
 			<div class="menu">
-
 			<div class="logo-menu">
 				<a href="mailto:gmastrbit@gmail.com" class="ico gradient1" data-gradient-css="linear-gradient(45deg, #9575cd, #7e57c2, #673ab7, #5e35b1, #512da8, #4527a0, #311b92)"> G </a> 
 			</div>
-
-			 <div class="menu__icon">
-				<span></span> <span></span> <span></span> <span></span>
-		    </div>
+			 <div class="menu__icon"> <span></span> <span></span> <span></span> <span></span> </div>
 				<nav class="menu menu--ferdinand menu__links">
 					<ul class="menu__list js-scrollspy-nav" id="top-menu">
 						<li class="menu__links-item menu__item menu__item--current"> <a href="#head" class="menu__link">Головне</a> </li>
 						<li class="menu__links-item menu__item"> <a href="#projects" class="menu__link">Проекти</a> </li>
 						<li class="menu__links-item menu__item"> <a href="#contacts" class="menu__link">Контакти</a> </li>
-						<li class="menu__links-item menu__item"> <a href="#message" class="menu__link">Напишіть мені</a> </li>
+						<li class="menu__links-item menu__item"> <a href="#envelope" class="menu__link">Напишіть мені</a> </li>
 					</ul>
 				</nav>
 			</div>
@@ -145,9 +140,7 @@
 		<div class="only-mob"><br><br></div>
 		<div class="jumbotron">
 			<div class="jumbotron-box">
-				<div class="hello">
-					Привіт! Це — я,	<br><br>
-				</div>
+				<div class="hello"> Привіт! Це — я,	<br><br> </div>
 				<div class="info-box">
 					<div class="myimage">
 						<div class="my_image">
@@ -587,7 +580,7 @@
 			</div> 
 		</div>
 		<div class="mess">
-			<span id="message"> </span> 
+			<span id="envelope"> </span> 
 			<div class="message-mob"> <br><br><br><br> </div>
 		</div>
 		<div class="write-me">
@@ -606,8 +599,8 @@
 					<br><br>
 					<div class="row-feedback wow fadeIn animated">					
 						<section class="section">
-							<button id="send" class="button wow bounceInUp animated component-10" type="submit" name="button">
-								Надіслати  <i class="fa fa-paper-plane" aria-hidden="true"></i>
+							<button id="send" class="button wow bounceInUp animated" type="submit" name="button">
+								Надіслати <i class="fa fa-paper-plane" aria-hidden="true"></i>
 							</button>
 						</section>
 					</div>
@@ -625,12 +618,12 @@
 	$(window).load(function () {
 		$(".load-container").delay(100).fadeOut(750);
 	});
-	$(document).ready(function() {
-		$("head").append("<link rel='stylesheet' type='text/css' href='mypage/css/component.css'>");
-	})
 	$(window).scroll(function() { 
 		$('.header').toggleClass('header-shadow', $(this).scrollTop() > 10); 
 	});
+	$(document).ready(function() {
+		$("head").append("<link rel='stylesheet' type='text/css' href='mypage/css/component.css'>");
+	})
 	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
 		e.preventDefault();
 		var target = this.hash,
@@ -662,7 +655,7 @@
 			$.ajax({
 			type: "POST",
 			url: "mypage/sendMessage.php",
-			data: {"author": author, "message": message, },
+			data: {"author": author, "message": message },
 			cache: false,						
 			success: function(response){
 			var messageResp = new Array('Ваше повідомлення відправлене','Повідомлення не відправлене, помилка БД','Не можна відправляти порожні повідомлення');
@@ -769,9 +762,6 @@
 	});
     $('.menu__icon').on('click', function() {
 		$(this).closest('.menu').toggleClass('menu_state_open');
-    });
-    $('.menu__links-item').on('click', function() {
-		$(this).closest('.menu').removeClass('menu_state_open');
     });
 	</script>
 	</body>

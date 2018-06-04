@@ -180,7 +180,7 @@
 		include("connect.php");
 		$result = $mysqli -> query("SELECT * FROM `mypage`");
 		$comment = mysqli_fetch_array($result);
-		$query = $mysqli -> query("SELECT `text` FROM `pass`", $db);
+		$query = $mysqli -> query("SELECT `text` FROM `pass`");
 		$array = mysqli_fetch_array($query);
 		$passw = $array[0];
 	?>
